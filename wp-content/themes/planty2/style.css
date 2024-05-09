@@ -1,0 +1,516 @@
+/*
+Theme Name: Planty 2
+Theme URI: https://studionumerik.fr/
+Description: Twenty Twenty Child Theme
+Author: Studio Numerik
+Author URL: https://studionumerik.fr/
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URL: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* Placer votre CSS ci-dessous */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+/* Import de la font Sine depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body {
+   font-family: 'Syne';
+   font-size: 16px;
+   font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/*** header ***/
+
+#menu-item-45 { order: 1; } /* Changez l'ordre du premier élément */
+#menu-item-admin { order: 2; } /* Changez l'ordre du deuxième élément */
+#menu-item-44 { order: 3; } /* Changez l'ordre du troisième élément */
+
+#menu-item-45, #menu-item-admin, #menu-item-44 a {
+    font-size: 16px !important;
+}
+
+#menu-item-44 a {
+    font-size: 16px !important;
+    text-transform: lowercase !important;
+}
+
+/* ca ne fonctionne pas pour mettre la premiere lettre de Commander en majuscule */
+#menu-item-44 a::first-letter {
+    text-transform: uppercase !important;
+}
+
+#menu-item-44 {
+    background-color: #DC9F96;
+    font-size: 16px !important;
+}
+
+.primary-menu li a {
+    color: black !important;
+    padding: 0 40px;
+    margin: 0px;
+}
+
+#menu-item-44 a, #menu-item-45 a,#menu-item-45 a:hover, #menu-item-44 a:hover,#menu-item-admin a:hover, #menu-item-45 a:active, #menu-item-44 a:active, #menu-item-admin a:active { 
+    text-decoration: none !important;
+}
+
+.primary-menu #menu-item-44 a {
+    color: white !important;
+}
+
+.header-navigation-wrapper, .primary-menu-wrapper, .primary-menu li a {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-inner.section-inner {
+    padding: 0px !important;
+    margin: 0 !important;
+}
+
+.custom-logo {
+    width: 201px !important;
+    padding-left: 10px;
+}
+
+#site-header, .header-footer-group {
+    padding: 0 !important;
+    margin: 0 !important;
+} 
+
+/*** footer ***/
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top ul a {
+    color: black !important;
+    padding: 0 40px;
+    margin: 0px;
+}
+
+
+
+
+
+/*** page 1 ***/
+
+/*** section 1  ***/
+.entry-header-inner.medium {
+    max-width: none;
+    width: 70%;
+}
+.entry-header.has-text-align-center.header-footer-group {
+    background-color:#ECE2DA;
+}
+.wp-block-image.is-style-default {
+    background-color:#ECE2DA;
+    border-bottom: 10px solid #E3D9D0;
+    border-radius: 0 0 10% 10% ;
+}
+.entry-title {
+    font-weight: 800;
+    color:  #3B8E46;
+    font-size: 38px;
+    font-family: 'Syne';
+    padding-top: 50px;
+}
+/*** section 2  ***/
+.reduced-spacing.missing-post-thumbnail .post-inner {
+    max-width: none;
+    margin: 0;
+}
+.entry-content {
+    font-size: 20px;
+    font-family: 'Syne';
+    max-width: none;
+}
+.wp-block-group {
+    background-color: white;
+    width: 100%;
+    max-width: none;
+}
+
+.wp-block-heading.has-text-align-center{
+    font-size: 30px;
+    color: #3B8E46 !important;
+    font-family: 'Syne' !important;
+    font-weight: 700;
+}
+.post-inner {
+    padding: 0;
+    max-width: none;
+}
+
+.wp-block-group__inner-container{
+    padding: 50px 0;
+}
+
+.has-text-align-center.text {
+    color: black !important;
+    font-size: 20px;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important;
+}
+/*** section 3 LES GOUTS ***/
+.wp-block-group.gouts {
+    background-color: #ECE2DA;
+    font-family: 'Syne';
+    border-radius: 0 0 3% 3% ;
+    max-width: none;
+    width: 100%;
+}
+
+.wp-block-heading.has-text-align-center.pink {
+    color: #DC9F96;
+}
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption, .wp-element-caption {
+    font-family: 'Syne';
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: normal;
+    background: none;
+    bottom: auto;
+}
+
+/* ca ne s'applique pas au bouton, meme dans le personnaliser et css additionnel ca ne marche pas, sol de trouver les couleurs du theme pour le mettre mais je ne trouve pas*/
+.wp-block-button__link.wp-element-button {
+    background-color: #E0B9B4;
+}
+/*** section 4 CE QU ILS PENSENT ***/
+.wp-block-heading.has-small-font-size {
+    color: #3B8E46;
+}
+
+.wp-block-media-text.is-stacked-on-mobile, .wp-block-media-text__content {
+    margin: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/*** page 2 ***/
+/*** section 1 ***/
+.has-text-align-center.p2p {
+    background-color: #ECE2DA;
+    font-family: 'Syne';
+    width: 20%;
+    color: black !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+#group_p2p {
+    background-color: #ECE2DA;
+    font-family: 'Syne';
+    border-radius: 0 0 15% 15% ;
+    max-width: none;
+}
+/*** section 2 ***/
+.equipe { 
+    padding: 0px;
+    margin: 0px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    background: url(http://localhost:10008/wp-content/uploads/2024/04/Group-4-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 150px; 
+}
+
+.galerie-content{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.wp-block-image.size-full {
+    margin: 0px !important;
+}
+
+.galerie-title {
+ color: black !important;
+ font-family: 'Syne' !important;
+ margin: 0px !important;
+ font-weight: 700 !important;
+}
+
+/*** section 3 ***/
+
+.contact-section {
+    background-color:#ECE2DA;
+    display: flex;
+    align-items: center;
+}
+.wp-block-heading.titre-contact{
+    font-family: 'Syne' !important;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0;
+}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, .wpcf7-form-control.wpcf7-textarea {
+    align-items: start;
+    border: 1px solid white !important;
+    border-radius: 7px !important;
+    margin-top: 10px !important;
+}
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+    background-color: #E0B9B4 !important;
+    border-radius: 5px !important;
+    align-items: center;
+    padding: 15px 40px;
+}
+.has-text-align-center {
+    color: black !important;
+}
+
+.wpcf7-form.init {
+    background-color: #3B8E46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(http://localhost:10008/wp-content/uploads/2024/04/Group-16.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 190px; 
+    padding: 0px 70px 0 70px;
+}
+/* ne s'applique pas*/
+.wp-block-image.alignfull.size-large.bottle {
+    background-color: #E0B9B4 !important;
+}
+
+.wp-block-image.alignfull.size-large.bottle {
+    margin: 0;
+}
+
+
+
+
+
+
+/*** page 3 commander ***/
+/*** section 1 ***/
+
+.is-style-wide {
+    color: white !important;
+}
+
+.wp-block-heading.commander-title {
+    color: white;
+    font-family: 'Syne' !important;
+    font-weight: 700;
+    font-size: 30px;
+    border-top: solid 2px white;
+    padding: 0;
+    padding-top: 50px;
+    margin: 0 !important;
+}
+
+.section1-container {
+    background-color: #3B8E46;
+}
+
+.section-1-commander { 
+background-color: #3B8E46;
+    display: flex;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.tableau {
+    padding-bottom: 60px;
+    border-bottom: solid 2px white;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    height: 56px !important;
+    width: 39px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+.fruit {
+    width: 193px !important;
+    height: 129px !important;
+    margin: 0 0 15px 0 !important;
+}
+
+.fruit-title {
+    color: white !important;
+    font-family: 'Syne' !important;
+    font-weight: 800;
+    font-size: 20px !important;
+}
+.wp-block-cover__inner-container.is-layout-flow.wp-block-cover-is-layout-flow {
+    width: 100%;
+}
+
+/*** section 2 ***/
+
+.separateur {
+    border-left: 2px solid white;
+    height: 365px; /* Hauteur de la ligne */
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    max-width: 1150px;
+    justify-content: space-around;
+}
+#wpcf7-f221-p36-o1 {
+    max-width: none;
+    width: 100%;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.section2-commander {
+    background-color:#3B8E46;
+    max-width: none !important;
+    width: 100% !important;
+}
+
+.wpcf7-form-control.wpcf7-text.form-title {
+    font-weight: 700;
+    color:  white;
+    background-color:  transparent;
+    font-size: 30px;
+    font-family: 'Syne';
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.section2-commander.wp-block-group p {
+    font-weight: 400;
+    color:  white;
+    font-size: 20px;
+    font-family: 'Syne';
+}
+
+.wpcf7-spinner {
+    display: none;
+}
+
+/*** RESPONSIVE ***/
+
+
+@media screen and (max-width: 1000px) {
+    /*** header ***/
+    .toggle.nav-toggle.mobile-nav-toggle {
+        display: none;
+    }
+    
+    .header-navigation-wrapper, .primary-menu-wrapper, .primary-menu li a {
+        height: 50px !important;
+    }
+    .header-inner.section-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .primary-menu li a {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .custom-logo {
+        width: 150px !important;
+    }
+    }
+
+@media screen and (max-width: 644px) {
+    /*** page 1 ***/
+    .wp-image-99.size-full, .wp-image-98.size-full, .wp-image-100.size-full {
+        width: 126px;
+    }
+    .wp-block-media-text__content {
+        padding: 10px 0px !important;
+    }
+    .wp-block-media-text.is-stacked-on-mobile, .wp-block-media-text__content {
+        margin: 10px 20px !important;
+        padding-top: 0 !important;
+    }
+    .wp-block-gallery.has-nested-images figure.wp-block-image figcaption, .wp-element-caption {
+        font-size: 18px;
+    }
+    /*** page 2 ***/
+    .entry-title {
+        font-weight: 700;
+        padding: 30px 0 0 0;
+    }
+    }
+
+@media screen and (max-width: 553px) {
+    /*** header ***/
+    .toggle.nav-toggle.mobile-nav-toggle {
+        display:flex
+    }
+    
+    .header-navigation-wrapper, .primary-menu-wrapper, .primary-menu li a {
+        display: none;
+    }
+    }
+
+@media screen and (max-width: 886px) {
+    /*** page 1 ***/
+    .equipe { 
+       background: transparent;
+    }
+    /*** page 3 ***/
+    .wp-block-heading.alignwide.has-text-align-left.commander-title {
+        padding-left: 20px;
+    }
+    .separateur {
+        display: none;
+    }
+    
+    .form {
+        display: flex;
+        max-width: none !important;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+
+    .form-content {
+        width: 100%;
+    }
+
+    .wpcf7-form-control.wpcf7-text.form-title{
+        font-size: 20px;
+    }
+    }

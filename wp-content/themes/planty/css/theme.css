@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+/* Import de la font Sine depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body {
+   font-family: 'Syne';
+   size: 16px;
+   font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/*** header ***/
+
+#menu-item-45 { order: 1; } /* Changez l'ordre du premier élément */
+#menu-item-admin { order: 2; } /* Changez l'ordre du deuxième élément */
+#menu-item-44 { order: 3; } /* Changez l'ordre du troisième élément */
+
+
+#menu-item-44 {
+    background-color: #DC9F96;
+}
+
+.primary-menu li a {
+    color: black !important;
+    padding: 0 40px;
+    margin: 0px;
+}
+
+#menu-item-45 a:hover, #menu-item-44 a:hover,#menu-item-admin a:hover, #menu-item-45 a:active, #menu-item-44 a:active, #menu-item-admin a:active { 
+    text-decoration: none;
+}
+
+.primary-menu #menu-item-44 a {
+    color: white !important;
+}
+
+.header-navigation-wrapper, .primary-menu-wrapper, .primary-menu li a {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-inner, .section-inner {
+padding-top: 0px !important;
+}
+
+/*** footer ***/
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top ul a {
+    color: black !important;
+    padding: 0 40px;
+    margin: 0px;
+}
+
+/*** page 1 ***/
+
+/*** section 1  ***/
+.entry-header-inner.medium {
+    max-width: none;
+    width: 70%;
+}
+.entry-header.has-text-align-center.header-footer-group {
+    background-color:#ECE2DA;
+    height: 800px;
+    border-bottom: 10px solid #E3D9D0;
+    border-radius: 0 0 60px 60px ;
+}
+.entry-title {
+    font-weight: 800;
+    color:  #3B8E46;
+    font-size: 38px;
+    font-family: 'Syne';
+}
+/*** section 2  ***/
+.reduced-spacing.missing-post-thumbnail .post-inner {
+    max-width: none;
+    margin: 0;
+}
+.entry-content {
+    font-size: 20px;
+    font-family: 'Syne';
+    max-width: none;
+}
+.wp-block-group {
+    background-color: white;
+    width: 100%;
+    max-width: none;
+}
+
+.wp-block-heading.has-text-align-center{
+    font-size: 30px;
+    color: #3B8E46;
+    font-family: 'Syne';
+    font-weight: 700;
+}
+.post-inner {
+    padding: 0;
+    max-width: none;
+}
+/*** section 3 LES GOUTS ***/
+.wp-block-group.gouts {
+    background-color: #ECE2DA;
+    font-family: 'Syne';
+    max-width: none;
+    border-radius: 0 0 10px 10px ;
+    max-width: none;
+    width: 100%;
+}
+
+.wp-block-heading.has-text-align-center.pink {
+    color: #DC9F96;
+}
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption, .wp-element-caption{
+    font-family: 'Syne';
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: normal;
+    background: none;
+    bottom: auto;
+}
+/* ca ne s'applique pas au bouton, meme dans le personnaliser et css additionnel ca ne marche pas, sol de trouver les couleurs du theme pour le mettre mais je ne trouve pas*/
+.wp-block-button.has-custom-font-size.is-style-fill {
+    background-color: #E0B9B4 !important;
+}
+/*** section 3 CE QU ILS PENSENT ***/
