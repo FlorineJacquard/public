@@ -285,7 +285,13 @@ a:active {
 }
 
 .wpcf7-form.init {
-    background-color: #3B8E46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,17 +302,19 @@ a:active {
     background-size: 190px; 
     padding: 0px 70px 0 70px;
 }
-/* ne s'applique pas*/
-.wp-block-image.alignfull.size-large.bottle {
-    background-color: #E0B9B4 !important;
+#form-1::after {
+    content: ''; /* Crée un pseudo-élément */
+    display: block;
+    height: 30px; /* descends l'image*/
 }
 
 .wp-block-image.alignfull.size-large.bottle {
     margin: 0;
 }
 
-
-
+.wpcf7-form-control.wpcf7-textarea {
+    height: 237px;
+}
 
 
 
@@ -352,9 +360,10 @@ padding: 0 !important;
 
 .number {
     height: 56px !important;
-    width: 39px !important;
+    width: 49px !important;
     display: flex !important;
     align-items: center !important;
+    justify-content: center;
 }
 
 
@@ -386,6 +395,7 @@ padding: 0 !important;
     display: flex;
     max-width: 1150px;
     justify-content: space-around;
+    background-url: none;
 }
 #wpcf7-f221-p36-o1 {
     max-width: none;
@@ -412,8 +422,6 @@ padding: 0 !important;
     font-size: 30px;
     font-family: 'Syne';
     border: none;
-    margin: 0;
-    padding: 0;
 }
 .section2-commander.wp-block-group p {
     font-weight: 400;
