@@ -27,6 +27,7 @@ function changer_couleur_h1() {
 				background-position: left;
 				background-size: 130px; 
 				padding: 90px 70px 10px 70px;
+				text-transform: uppercase !important;
             }
 			.entry-header.has-text-align-center.header-footer-group {
 				padding: 50px 0px 0px 0px !important;
@@ -49,6 +50,7 @@ function changer_couleur_h1() {
         echo '<style>
             h1 {
                 color: white !important;
+				text-transform: uppercase !important;
             }
 			.entry-header.has-text-align-center.header-footer-group {
 				background-color: #3B8E46;

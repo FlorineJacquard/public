@@ -38,16 +38,6 @@ a:active {
     font-size: 16px !important;
 }
 
-#menu-item-44 a {
-    font-size: 16px !important;
-    text-transform: lowercase !important;
-}
-
-/* ca ne fonctionne pas pour mettre la premiere lettre de Commander en majuscule */
-#menu-item-44 a::first-letter {
-    text-transform: uppercase !important;
-}
-
 #menu-item-44 {
     background-color: #DC9F96;
     font-size: 16px !important;
@@ -74,8 +64,8 @@ a:active {
 }
 
 .header-inner.section-inner {
-    padding: 0px !important;
-    margin: 0 !important;
+    padding: 0px;
+    width: 100%;
 }
 
 .custom-logo {
