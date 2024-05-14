@@ -34,7 +34,7 @@ function changer_couleur_h1() {
 			.wp-image-117 {
 				background-color:#ECE2DA;
 			}
-			@media screen and (max-width: 644px) {
+			@media screen and (max-width: 780px) {
 				h1 {
 					background: transparent;
 				}

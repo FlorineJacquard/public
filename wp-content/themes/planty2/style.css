@@ -193,10 +193,10 @@ a:active {
     bottom: auto;
 }
 
-/* ca ne s'applique pas au bouton, meme dans le personnaliser et css additionnel ca ne marche pas, sol de trouver les couleurs du theme pour le mettre mais je ne trouve pas*/
 .wp-block-button__link.wp-element-button {
     background-color: #E0B9B4;
 }
+
 /*** section 4 CE QU ILS PENSENT ***/
 .wp-block-heading.has-small-font-size {
     color: #3B8E46;
@@ -204,7 +204,7 @@ a:active {
 
 .wp-block-media-text.is-stacked-on-mobile, .wp-block-media-text__content {
     margin: 0 !important;
-    padding-top: 0 !important;
+    padding-top: 50px !important;
 }
 
 
@@ -459,7 +459,7 @@ padding: 0 !important;
     }
     }
 
-@media screen and (max-width: 644px) {
+@media screen and (max-width: 780px) {
     /*** page 1 ***/
     .wp-image-99.size-full, .wp-image-98.size-full, .wp-image-100.size-full {
         width: 126px;
@@ -512,8 +512,6 @@ padding: 0 !important;
         flex-direction: column;
         align-items: center;
     }
- 
-
     .form-content {
         width: 100%;
     }
