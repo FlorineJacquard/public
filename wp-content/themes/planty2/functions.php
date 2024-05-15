@@ -16,9 +16,7 @@ function add_extra_item_to_nav_menu( $items, $args ) {
     return $items;
 }
 function changer_couleur_h1() {
-    // Vérifier si nous sommes sur la page "/nous-rencontrer"
     if (is_page('nous-rencontrer')) {
-        // Ajouter du CSS pour changer la couleur du h1 en bleu et définir le padding
         echo '<style>
             h1 {
                 color: #D2776A !important;
@@ -46,7 +44,6 @@ function changer_couleur_h1() {
         </style>';
     }
 	if (is_page('commander')) {
-        // Ajouter du CSS pour changer la couleur du h1 en bleu et définir le padding
         echo '<style>
             h1 {
                 color: white !important;
