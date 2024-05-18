@@ -112,7 +112,8 @@ a:active {
 .wp-block-image.is-style-default {
     background-color:#ECE2DA;
     border-bottom: 10px solid #E3D9D0;
-    border-radius: 0 0 10% 10% ;
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
 }
 .entry-title {
     font-weight: 800;
@@ -215,7 +216,8 @@ a:active {
 #group_p2p {
     background-color: #ECE2DA;
     font-family: 'Syne';
-    border-radius: 0 0 15% 15% ;
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
     max-width: none;
 }
 /*** section 2 ***/
