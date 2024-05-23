@@ -544,6 +544,23 @@ input[type="number"] {
 }
 
 /*** RESPONSIVE ***/
+@media screen and (max-width: 1800px) {
+    /*** page 1 ***/
+    .left-image {
+        transform: translate(-30%, -50%);
+        z-index: 2;
+    }
+    
+    .right-image {
+        transform: translate(30%, -50%);
+        z-index: 2;
+    }
+    .wp-block-group.image-container {
+        border-bottom-left-radius: 30% 15%;
+        border-bottom-right-radius: 30% 15%;
+        height: 700px;
+    }
+    }
 
 @media screen and (max-width: 1500px) {
     /*** page 1 ***/
@@ -555,11 +572,6 @@ input[type="number"] {
     .right-image {
         transform: translate(40%, -50%);
         z-index: 2;
-    }
-    .wp-block-group.image-container {
-        border-bottom-left-radius: 30% 15%;
-        border-bottom-right-radius: 30% 15%;
-        height: 700px;
     }
     }
 
