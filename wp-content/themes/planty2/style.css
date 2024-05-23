@@ -415,7 +415,7 @@ padding: 0 !important;
 
 .separateur {
     border-left: 2px solid white;
-    height: 365px; /* Hauteur de la ligne */
+    height: 390px; /* Hauteur de la ligne */
     align-items: center;
 }
 
@@ -425,7 +425,7 @@ padding: 0 !important;
     justify-content: space-around;
     background: none;
     margin-top: 50px;
-    width: 90%;
+    width: 75%;
 }
 #wpcf7-f221-p36-o1 {
     max-width: none;
