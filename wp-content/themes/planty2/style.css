@@ -260,7 +260,7 @@ a:active {
     justify-content: center !important;
     align-items: center !important;
     flex-wrap: wrap !important;
-    background: url(http://localhost:10008/wp-content/uploads/2024/04/Group-4-2.png);
+    background: url(/wp-content/uploads/2024/04/Group-4-2.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 150px; 
@@ -324,7 +324,7 @@ a:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(http://localhost:10008/wp-content/uploads/2024/04/Group-16.png);
+    background: url(/wp-content/uploads/2024/04/Group-16.png);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 190px; 
@@ -504,19 +504,19 @@ padding: 0 !important;
 }
 
 .fraise {
-    background-image: url('http://localhost:10008/wp-content/uploads/2024/04/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png');
+    background-image: url('/wp-content/uploads/2024/04/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png');
 }
 
 .pamplemousse {
-    background-image: url('http://localhost:10008/wp-content/uploads/2024/04/estudio-bloom-tOitjphtIXU-unsplash-1.png');
+    background-image: url('/wp-content/uploads/2024/04/estudio-bloom-tOitjphtIXU-unsplash-1.png');
 }
 
 .framboise {
-    background-image: url('http://localhost:10008/wp-content/uploads/2024/04/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png');
+    background-image: url('/wp-content/uploads/2024/04/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png');
 }
 
 .citron {
-    background-image: url('http://localhost:10008/wp-content/uploads/2024/04/estudio-bloom-ezqnxsqUZ80-unsplash-1.png');
+    background-image: url('/wp-content/uploads/2024/04/estudio-bloom-ezqnxsqUZ80-unsplash-1.png');
 }
 
 .commander-p {

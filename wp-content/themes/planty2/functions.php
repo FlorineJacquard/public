@@ -20,7 +20,7 @@ function changer_couleur_h1() {
         echo '<style>
             h1 {
                 color: #D2776A !important;
-				background: url(http://localhost:10008/wp-content/uploads/2024/04/feuille-2.png);
+				background: url(/wp-content/uploads/2024/04/feuille-2.png);
 				background-repeat: no-repeat;
 				background-position: left;
 				background-size: 130px; 
